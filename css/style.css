@@ -1,0 +1,483 @@
+/* Start Main Rules */
+
+.container: {
+    width: 1170px;
+    margin: auto;
+}
+
+.clearfix {
+    clear: both;
+}
+
+/* End Main Rules */
+
+/* ------------------------------------------ Start Main Header ------------------------------------------ */
+
+/* ------------------------------------------ Slider */
+
+.header-main .slider {
+    background-image: url("../images/background/cake.jpg");
+    -webkit-background-size: cover; 
+    -moz-background-size: cover; 
+    -o-background-size: cover; 
+    background-size: cover; 
+    height: 600px;
+}
+
+.header-main .slider .box {
+    
+}
+
+.header-main .slider .box div {
+    float: left;
+    overflow: hidden;
+}
+
+.header-main .slider .box .box-one {
+    width: 60%;
+}
+
+.header-main .slider .box .box-two {
+    width: 30%;
+}
+
+.header-main .slider .box .box-two ul {
+    
+}
+
+.header-main .slider .box .box-two ul li {
+    float: left;
+    list-style: none;
+    margin: 20px;
+}
+
+.header-main .slider .box .box-three {
+    width: 10%;
+}
+
+.header-main .slider .box .box-three button {
+    display: block;
+    background: none;
+    padding: 5px 20px 5px 20px;
+    margin-top: 30px;
+    margin-right: 30px;
+}
+
+/* ------------------------------------------ Navbar */
+.header-main nav {
+    overflow: hidden;
+    background-color: #888;
+    overflow: hidden;
+    padding: 10px
+}
+
+.header-main nav ul li {
+    list-style: none;
+    float: left;
+    padding-left: 20px; 
+}
+
+.header-main nav ul li a {
+    color: #FFF;
+    text-decoration: none;
+    font-size: 20px
+}
+
+.header-main nav ul li a:hover {
+    color: #30B576;
+}
+
+/* ------------------------------------------ End Main Header ------------------------------------------ */
+
+/* -------------------------------- Start Popular Professional Services -------------------------------- */
+
+.popular {
+    margin: 100px 0 100px 20px;
+}
+
+.popular h2 {
+    font-size: 200%;
+    color: #303030;
+}
+
+.popular ul {
+    padding: 0 0 0 0;
+    list-style: none;
+}
+
+.popular ul li {
+    display: inline-block;
+    padding: 0 30px 0 0;
+}
+
+/* -------------------------------- End Popular Professional Services ---------------------------------- */
+
+/* -------------------- Start Start Get Work Done Faster On Fiverr, With Confidence -------------------- */
+
+.get-work {
+    margin: 20px;
+    overflow: hidden;
+}
+
+.get-work div {
+    float: left;
+    width: 50%;
+}
+
+.get-work  div ul {
+    padding-left: 20px;
+}
+
+
+.get-work div h2 {
+    margin-top: 0;
+    color: #303030;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.get-work div h3 {
+    color: #303030;
+    font-size: 1.5em;
+    margin-bottom: 5px;
+}
+
+.get-work div p {
+    color: #555555;
+    margin-top: 5px;
+    width: 80%;
+}
+
+/* -------------------- Start Start Get Work Done Faster On Fiverr, With Confidence -------------------- */
+
+/* --------------------------------- Start Explore The Marketplace ------------------------------------- */
+
+.explore {
+    padding: 20px;
+    overflow: hidden;
+}
+
+.explore div h2 {
+    
+}
+
+.explore div ul {
+    list-style: none;
+    overflow: hidden;
+    padding-left: 0;
+}
+
+.explore div ul li {
+    padding: 10px 60px 10px 60px;
+    width: 155px;
+    text-align: center;
+    float: left;
+}
+
+.explore div ul li img {
+    
+}
+
+.explore div ul li p a {
+    text-decoration: none;
+    color: #555555;
+}
+
+/* --------------------------------- End Explore The Marketplace ------------------------------------- */
+
+/* ---------------- Start Get Inspired With Projects Made By Our Freelancers ----------------- */
+
+.get-inspired {
+    padding: 20px;
+    margin-bottom: 40px;
+}
+
+.get-inspired div {
+    overflow: hidden;
+}
+
+.get-inspired div h2 {
+    margin-bottom: 40px;
+}
+
+.get-inspired div ul {
+    list-style: none;
+    padding-left: 0;
+    overflow: hidden;
+    
+}
+
+.get-inspired div ul li {
+    float: left;
+    margin-right: 30px;
+}
+
+/* ---------------- End Get Inspired With Projects Made By Our Freelancers ------------------- */
+/* --------------------------------------- Start Chef ---------------------------------------- */
+
+.chef {
+    padding: 20px;
+    overflow: hidden;
+}
+
+.chef .chef-work {
+    overflow: hidden;
+}
+
+.chef .chef-work div {
+    float: left;
+    width: 49%;
+}
+
+.chef .chef-work .box-one {
+}
+
+.chef .chef-work .box-two {
+    height: 400px;
+}
+
+.chef .chef-work .box-two q {
+    display: block;
+    padding: 20% 20px 5px 20px;
+    width: 50%;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #555555;
+}
+
+.chef .chef-work .box-two p {
+    padding: 0 20px 20px 20px;
+    color: #555555;
+}
+/* --------------------------------------- End Chef ------------------------------------------ */
+/* -------------------------------------------- Start Pro -------------------------------------------- */
+
+.pro {
+}
+
+.pro div {
+    background-image: url("../images/background/pro.png");
+    overflow: hidden;
+    text-align: left;
+    color: #FFF;
+    margin: 40px 20px 40px 20px;
+    height: 300px;
+}
+
+.pro div span {
+    display: block;
+    margin: 80px 40px 10px 40px;
+}
+
+.pro div h2 {
+    width: 35%;
+    margin: 20px 40px 10px 40px;
+}
+
+.pro div button {
+    margin: 10px 40px 40px 40px;
+    border-color: #1FD0B6;
+    color: #1FD0B6;
+    padding: 5px 10px 5px 10px;
+    background: none;
+    font-size: 1.3em;
+}
+/* -------------------------------------------- End Pro ---------------------------------------------- */
+/* ------------------------ Start Give Your Business The Right Tools  -------------------------------- */
+
+.right-tool {
+    padding: 20px;
+    overflow: hidden;
+}
+
+.right-tool div {
+    float: left;
+    width: 50%;
+}
+
+.right-tool div ul li p {
+    width: 90%;
+}
+
+/* -------------------------- End Give Your Business The Right Tools  -------------------------------- */
+/* ------------------------------------- Start Fiverr Guides ----------------------------------------- */
+
+.fiverr-guides {
+    padding: 20px;
+    overflow: hidden;
+}
+
+.fiverr-guides div {
+    overflow: hidden;
+}
+
+.fiverr-guides div ul {
+    overflow: hidden;
+    padding-left: 0;
+}
+
+.fiverr-guides div ul li {
+    list-style: none;
+    float: left;
+    padding-right: 20px;
+    
+}
+
+.fiverr-guides div ul li img {
+    width:413px;
+    height: 209px;
+}
+
+/* --------------------------------------- End Fiverr Guides ----------------------------------------- */
+/* -------------------- Start Find Freelance Services For Your Business Today ------------------------ */
+
+.find-freelance {
+    padding: 20px 20px 80px 20px;
+}
+
+.find-freelance div {
+    background-image: url("../images/background/find.png");
+    overflow: hidden;
+    text-align: center;
+    margin: 40px 20px 40px 20px;
+    height: 280px;
+}
+
+.find-freelance div h2 {
+    margin-top: 80px;
+}
+
+.find-freelance div p {
+    
+}
+
+.find-freelance div button {
+    background-color: #3FCA89;
+    color: #FFF;
+    padding: 15px 25px 15px 25px;
+    border: none;
+    margin-top: 10px;
+}
+
+.find-freelance div a {
+    text-decoration: none;
+}
+
+/* -------------------- End Find Freelance Services For Your Business Today -------------------------- */
+/* ------------------------------------------ Start Footer -------------------------------------------------- */
+
+footer {
+    background-color: #FAFAFA;
+    overflow: hidden;
+}
+
+footer .hr-footer-one {
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+/* ------------------------------------------ Part One */
+
+footer .part-one {
+    padding: 0 0 10px 20px; 
+}
+
+footer .part-one h2 {
+    color: #777777;
+    padding: 5px;
+    margin: 0 0 -8px 0;
+    font-size: 200%;
+    font-weight: bold;
+}
+
+footer .part-one h2 .trade-mark {
+    font-size: 10px;
+    top: -1.5em;
+}
+
+footer .part-one h5 {
+    color: #777777;
+    padding: 5px;
+    margin-top: 0;
+    margin-bottom:0;
+    font-weight: normal;
+}
+
+footer .part-one h5 a {
+    color: #989898;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+footer .part-one h5 a:hover {
+    text-decoration-line: underline;
+}
+
+footer .part-one .copy-right {
+    color: #C6C6C6;
+}
+
+/* ------------------------------------------ Part Two */
+
+footer .part-two {
+    padding: 0 0 20px 20px;
+    display: inline-block;
+}
+
+footer .part-two div {
+    float: left;
+    margin: 0 65px 10px 5px;
+}
+
+footer .part-two h3 {
+    color: #555555;
+    
+}
+
+footer .part-two ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer .part-two ul li {
+    line-height: 30px;
+}
+
+footer .part-two ul li a {
+    color: #7F7F7F;
+    text-decoration: none;
+}
+
+footer .part-two ul li a:hover {
+    text-decoration-line: underline;
+}
+
+/* ------------------------------------------ Part Three */
+
+footer .part-three .hr-footer-two {
+    margin: 8px 15px 8px 0;
+}
+
+footer .part-three {
+    padding: 0 0 20px 20px;
+    
+}
+
+footer .part-three ul {
+    padding: 0;   
+}
+
+footer .part-three ul li {
+    display: inline-block;
+    padding-right: 10px;
+}
+
+/* ------------------------------------------ End Footer ------------------------------------------ */
+
+/* Start Framework */
+
+.float-left {float: left}
+
+
+/* End Framework */
+
