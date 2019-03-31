@@ -9,6 +9,9 @@
     clear: both;
 }
 
+.active {
+    color: #3FCA89;
+}
 /* End Main Rules */
 
 /* ------------------------------------------ Start Main Header ------------------------------------------ */
@@ -16,7 +19,8 @@
 /* ------------------------------------------ Slider */
 
 .header-main .slider {
-    background-image: url("../images/background/cake.jpg");
+    background-color: #EEF2F5;
+    /* background-image: url("../images/background/cake.jpg"); */
     -webkit-background-size: cover; 
     -moz-background-size: cover; 
     -o-background-size: cover; 
@@ -24,67 +28,144 @@
     height: 600px;
 }
 
-.header-main .slider .box {
-    
+.header-main .slider .first-box {
+    overflow: hidden;
 }
 
-.header-main .slider .box div {
+.header-main .slider .first-box div {
     float: left;
     overflow: hidden;
 }
 
-.header-main .slider .box .box-one {
+/* ------------------------------------------ first-box box-one */
+.header-main .slider .first-box .box-one {
     width: 60%;
 }
 
-.header-main .slider .box .box-two {
+.header-main .slider .first-box .box-one h2 {
+    margin-left: 30px;
+    font-size: 2em;
+}
+
+.header-main .slider .first-box .box-one h2 a {
+    text-decoration: none;
+    color: #555555;
+}
+
+/* ------------------------------------------ first-box box-two */
+.header-main .slider .first-box .box-two {
     width: 30%;
 }
 
-.header-main .slider .box .box-two ul {
-    
+.header-main .slider .first-box .box-two ul {
+    overflow: hidden;
+    padding-left: 115px;
 }
 
-.header-main .slider .box .box-two ul li {
+.header-main .slider .first-box .box-two ul li {
     float: left;
     list-style: none;
-    margin: 20px;
+    margin: 20px 10px 20px 10px;
 }
 
-.header-main .slider .box .box-three {
+.header-main .slider .first-box .box-two ul li a {
+    text-decoration: none;
+    color: #555555;
+}
+
+.header-main .slider .first-box .box-two ul li a:hover {
+    color: #3FCA89;
+}
+
+/* ------------------------------------------ first-box box-three */
+.header-main .slider .first-box .box-three {
     width: 10%;
 }
 
-.header-main .slider .box .box-three button {
+.header-main .slider .first-box .box-three button {
     display: block;
     background: none;
-    padding: 5px 20px 5px 20px;
+    padding: 5px 25px 5px 25px;
     margin-top: 30px;
     margin-right: 30px;
+    border: 1px solid;
 }
 
+.header-main .slider .first-box .box-three button:hover {
+    background-color: #3FCA89;
+    color: #FFF;
+    border: #3FCA89;
+}
+
+/* ------------------------------------------ second-box */
+
+.header-main .slider .second-box {
+    width: 50%;
+    margin-left: 100px;
+}
+
+/* ------------------------------------------ second-box box-one */
+
+.header-main .slider .second-box .box-one {
+     width: 90%;
+}
+
+.header-main .slider .second-box .box-one h1 {
+    width: 70%;
+}
+
+/* ------------------------------------------ second-box box-two */
+
+.header-main .slider .second-box .box-two {
+    margin-bottom: 20px;
+}
+
+.header-main .slider .second-box .box-two input {
+    height: 40px;
+    width: 66%;
+}
+
+.header-main .slider .second-box .box-two button {
+    background-color: #3FCA89;
+    height: 45px;
+    border: 2px solid #3FCA89;
+    padding: 4px 20px 4px 20px;
+    margin-left: -4px;
+    color: #FFF;
+}
+/* ------------------------------------------ second-box box-three */
+.header-main .slider .second-box .box-three span {
+    font-weight:bold;
+}
+
+.header-main .slider .second-box .box-three button {
+    background: none;
+    padding: 4px 10px 4px 10px;
+    border: 1px solid #888;
+}
 /* ------------------------------------------ Navbar */
 .header-main nav {
-    overflow: hidden;
-    background-color: #888;
     overflow: hidden;
     padding: 10px
 }
 
-.header-main nav ul li {
+.header-main  div nav ul {
+    overflow: hidden;
+    padding-left: 25%;
+}
+
+.header-main div nav ul li {
+    color: #999;
+    text-decoration: none;
+    font-size: 20px;
     list-style: none;
     float: left;
-    padding-left: 20px; 
+    padding-left: 30px; 
+    font-weight: bold;
 }
 
-.header-main nav ul li a {
-    color: #FFF;
-    text-decoration: none;
-    font-size: 20px
-}
-
-.header-main nav ul li a:hover {
-    color: #30B576;
+.header-main hr {
+    margin-top: 0;
 }
 
 /* ------------------------------------------ End Main Header ------------------------------------------ */
