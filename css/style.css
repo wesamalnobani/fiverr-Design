@@ -16,7 +16,7 @@
 
 /* ------------------------------------------ Start Main Header ------------------------------------------ */
 
-/* ------------------------------------------ Slider */
+/* Slider */
 
 .header-main .slider {
     background-color: #EEF2F5;
@@ -37,7 +37,7 @@
     overflow: hidden;
 }
 
-/* ------------------------------------------ first-box box-one */
+/* first-box box-one */
 .header-main .slider .first-box .box-one {
     width: 60%;
 }
@@ -52,7 +52,7 @@
     color: #555555;
 }
 
-/* ------------------------------------------ first-box box-two */
+/* first-box box-two */
 .header-main .slider .first-box .box-two {
     width: 30%;
 }
@@ -77,7 +77,7 @@
     color: #3FCA89;
 }
 
-/* ------------------------------------------ first-box box-three */
+/* first-box box-three */
 .header-main .slider .first-box .box-three {
     width: 10%;
 }
@@ -97,14 +97,14 @@
     border: #3FCA89;
 }
 
-/* ------------------------------------------ second-box */
+/* second-box */
 
 .header-main .slider .second-box {
     width: 50%;
     margin-left: 100px;
 }
 
-/* ------------------------------------------ second-box box-one */
+/* second-box box-one */
 
 .header-main .slider .second-box .box-one {
      width: 90%;
@@ -114,7 +114,7 @@
     width: 70%;
 }
 
-/* ------------------------------------------ second-box box-two */
+/* second-box box-two */
 
 .header-main .slider .second-box .box-two {
     margin-bottom: 20px;
@@ -133,7 +133,7 @@
     margin-left: -4px;
     color: #FFF;
 }
-/* ------------------------------------------ second-box box-three */
+/* second-box box-three */
 .header-main .slider .second-box .box-three span {
     font-weight:bold;
 }
@@ -143,7 +143,7 @@
     padding: 4px 10px 4px 10px;
     border: 1px solid #888;
 }
-/* ------------------------------------------ Navbar */
+/* Navbar */
 .header-main nav {
     overflow: hidden;
     padding: 10px
@@ -176,9 +176,14 @@
     margin: 100px 0 100px 20px;
 }
 
-.popular h2 {
+.popular .main-div h2 {
     font-size: 200%;
     color: #303030;
+}
+
+.popular .main-div .box-one {
+    overflow: hidden;
+    padding: 0 0 0 20px;
 }
 
 .popular ul {
@@ -188,7 +193,7 @@
 
 .popular ul li {
     display: inline-block;
-    padding: 0 30px 0 0;
+    padding: 0 50px 0 0;
 }
 
 /* -------------------------------- End Popular Professional Services ---------------------------------- */
@@ -457,7 +462,7 @@ footer .hr-footer-one {
     margin-bottom: 15px;
 }
 
-/* ------------------------------------------ Part One */
+/* Part One */
 
 footer .part-one {
     padding: 0 0 10px 20px; 
@@ -498,7 +503,7 @@ footer .part-one .copy-right {
     color: #C6C6C6;
 }
 
-/* ------------------------------------------ Part Two */
+/* Part Two */
 
 footer .part-two {
     padding: 0 0 20px 20px;
@@ -533,7 +538,7 @@ footer .part-two ul li a:hover {
     text-decoration-line: underline;
 }
 
-/* ------------------------------------------ Part Three */
+/* Part Three */
 
 footer .part-three .hr-footer-two {
     margin: 8px 15px 8px 0;
