@@ -1,0 +1,81 @@
+/* Start Main Rules */
+
+.container: {
+    width: 1170px;
+    margin: auto;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.active {
+    color: #3FCA89;
+}
+/* End Main Rules */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -- Start Navbar -- */
+
+.header-main {
+    
+}
+
+.header-main .first-box {
+    height: 85px;
+    overflow: hidden;
+}
+.header-main .first-box div {
+    float: left;
+}
+
+.header-main .first-box .main-nav-one {
+    
+}
+
+.header-main .first-box .main-nav-one ul {
+     list-style: none;
+    
+}
+
+.header-main .first-box .main-nav-one ul li {
+   float: left;
+}
+
+.header-main .second-box {
+    overflow: hidden;
+}
+
+.header-main .second-box .main-nav-two {
+    overflow: hidden;
+}
+
+.header-main .second-box .main-nav-two ul {
+    list-style: none;
+}
+
+.header-main .second-box .main-nav-two ul li {
+    float: left;
+}
+
+
+/* -- End Navbar -- */

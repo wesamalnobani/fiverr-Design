@@ -22,7 +22,6 @@
 
 .header-main .slider {
     background-color: #EEF2F5;
-    /* background-image: url("../images/background/cake.jpg"); */
     -webkit-background-size: cover; 
     -moz-background-size: cover; 
     -o-background-size: cover; 
@@ -31,17 +30,18 @@
 }
 
 .header-main .slider .first-box {
+    height: 90px;
     overflow: hidden;
 }
 
 .header-main .slider .first-box div {
     float: left;
-    overflow: hidden;
 }
 
 /* first-box box-one */
 .header-main .slider .first-box .box-one {
     width: 60%;
+    height: 100%;
 }
 
 .header-main .slider .first-box .box-one h2 {
@@ -56,40 +56,44 @@
 
 /* first-box box-two */
 .header-main .slider .first-box .box-two {
-    width: 30%;
-}
-
-.header-main .slider .first-box .box-two ul {
+    width: 29%;
+    height: 95%;
     overflow: hidden;
-    padding-left: 115px;
 }
 
-.header-main .slider .first-box .box-two ul li {
+.header-main .slider .first-box .box-two nav {
+    margin: 15px auto;
+}
+
+.header-main .slider .first-box .box-two nav ul {
+    overflow: hidden;
+}
+
+.header-main .slider .first-box .box-two nav ul li {
     float: left;
     list-style: none;
-    margin: 20px 10px 20px 10px;
+    padding: 15px;
 }
 
-.header-main .slider .first-box .box-two ul li a {
+.header-main .slider .first-box .box-two nav ul li a {
     text-decoration: none;
     color: #555555;
 }
 
-.header-main .slider .first-box .box-two ul li a:hover {
+.header-main .slider .first-box .box-two nav ul li a:hover {
     color: #3FCA89;
 }
 
 /* first-box box-three */
 .header-main .slider .first-box .box-three {
     width: 10%;
+    height: 100%;
 }
 
 .header-main .slider .first-box .box-three button {
-    display: block;
+    margin: 25px auto;
     background: none;
     padding: 5px 25px 5px 25px;
-    margin-top: 30px;
-    margin-right: 30px;
     border: 1px solid;
 }
 
@@ -103,6 +107,8 @@
 
 .header-main .slider .second-box {
     width: 50%;
+    height: 40%;
+    overflow: hidden;
     margin-left: 100px;
 }
 
@@ -145,24 +151,25 @@
     padding: 4px 10px 4px 10px;
     border: 1px solid #888;
 }
+
+
+
 /* Navbar */
-.header-main nav {
-    overflow: hidden;
-    padding: 10px
+.header-main .nav {
 }
 
-.header-main  div nav ul {
+.header-main  .nav .first-box nav ul {
     overflow: hidden;
     padding-left: 25%;
 }
 
-.header-main div nav ul li {
+.header-main .nav .first-box nav ul li {
     color: #999;
     text-decoration: none;
     font-size: 20px;
     list-style: none;
     float: left;
-    padding-left: 30px; 
+    padding-left: 40px; 
     font-weight: bold;
 }
 
@@ -174,26 +181,26 @@
 
 /* -------------------------------- Start Popular Professional Services -------------------------------- */
 
-.popular {
+.body .popular {
     margin: 100px 0 100px 20px;
 }
 
-.popular .main-div h2 {
+.body .popular .main-div h2 {
     font-size: 200%;
     color: #303030;
 }
 
-.popular .main-div .box-one {
+.body .popular .main-div .box-one {
     overflow: hidden;
     padding: 0 0 0 20px;
 }
 
-.popular ul {
+.body .popular ul {
     padding: 0 0 0 0;
     list-style: none;
 }
 
-.popular ul li {
+.body .popular ul li {
     display: inline-block;
     padding: 0 50px 0 0;
 }
@@ -202,35 +209,35 @@
 
 /* -------------------- Start Start Get Work Done Faster On Fiverr, With Confidence -------------------- */
 
-.get-work {
+.body .get-work {
     margin: 20px;
     overflow: hidden;
 }
 
-.get-work div {
+.body .get-work div {
     float: left;
     width: 50%;
 }
 
-.get-work  div ul {
+.body .get-work  div ul {
     padding-left: 20px;
 }
 
 
-.get-work div h2 {
+.body .get-work div h2 {
     margin-top: 0;
     color: #303030;
     font-weight: bold;
     font-size: 2em;
 }
 
-.get-work div h3 {
+.body .get-work div h3 {
     color: #303030;
     font-size: 1.5em;
     margin-bottom: 5px;
 }
 
-.get-work div p {
+.body .get-work div p {
     color: #555555;
     margin-top: 5px;
     width: 80%;
@@ -240,33 +247,33 @@
 
 /* --------------------------------- Start Explore The Marketplace ------------------------------------- */
 
-.explore {
+.body .explore {
     padding: 20px;
     overflow: hidden;
 }
 
-.explore div h2 {
+.body .explore div h2 {
     
 }
 
-.explore div ul {
+.body .explore div ul {
     list-style: none;
     overflow: hidden;
     padding-left: 0;
 }
 
-.explore div ul li {
+.body .explore div ul li {
     padding: 10px 60px 10px 60px;
     width: 155px;
     text-align: center;
     float: left;
 }
 
-.explore div ul li img {
+.body .explore div ul li img {
     
 }
 
-.explore div ul li p a {
+.body .explore div ul li p a {
     text-decoration: none;
     color: #555555;
 }
@@ -275,27 +282,27 @@
 
 /* ---------------- Start Get Inspired With Projects Made By Our Freelancers ----------------- */
 
-.get-inspired {
+.body .get-inspired {
     padding: 20px;
     margin-bottom: 40px;
 }
 
-.get-inspired div {
+.body .get-inspired div {
     overflow: hidden;
 }
 
-.get-inspired div h2 {
+.body .get-inspired div h2 {
     margin-bottom: 40px;
 }
 
-.get-inspired div ul {
+.body .get-inspired div ul {
     list-style: none;
     padding-left: 0;
     overflow: hidden;
     
 }
 
-.get-inspired div ul li {
+.body .get-inspired div ul li {
     float: left;
     margin-right: 30px;
 }
@@ -303,28 +310,28 @@
 /* ---------------- End Get Inspired With Projects Made By Our Freelancers ------------------- */
 /* --------------------------------------- Start Chef ---------------------------------------- */
 
-.chef {
+.body .chef {
     padding: 20px;
     overflow: hidden;
 }
 
-.chef .chef-work {
+.body .chef .chef-work {
     overflow: hidden;
 }
 
-.chef .chef-work div {
+.body .chef .chef-work div {
     float: left;
     width: 49%;
 }
 
-.chef .chef-work .box-one {
+.body .chef .chef-work .box-one {
 }
 
-.chef .chef-work .box-two {
+.body .chef .chef-work .box-two {
     height: 400px;
 }
 
-.chef .chef-work .box-two q {
+.body .chef .chef-work .box-two q {
     display: block;
     padding: 20% 20px 5px 20px;
     width: 50%;
@@ -333,17 +340,17 @@
     color: #555555;
 }
 
-.chef .chef-work .box-two p {
+.body .chef .chef-work .box-two p {
     padding: 0 20px 20px 20px;
     color: #555555;
 }
 /* --------------------------------------- End Chef ------------------------------------------ */
 /* -------------------------------------------- Start Pro -------------------------------------------- */
 
-.pro {
+.body .pro {
 }
 
-.pro div {
+.body .pro div {
     background-image: url("../images/background/pro.png");
     overflow: hidden;
     text-align: left;
@@ -352,17 +359,17 @@
     height: 300px;
 }
 
-.pro div span {
+.body .pro div span {
     display: block;
     margin: 80px 40px 10px 40px;
 }
 
-.pro div h2 {
+.body .pro div h2 {
     width: 35%;
     margin: 20px 40px 10px 40px;
 }
 
-.pro div button {
+.body .pro div button {
     margin: 10px 40px 40px 40px;
     border-color: #1FD0B6;
     color: #1FD0B6;
@@ -373,45 +380,45 @@
 /* -------------------------------------------- End Pro ---------------------------------------------- */
 /* ------------------------ Start Give Your Business The Right Tools  -------------------------------- */
 
-.right-tool {
+.body .right-tool {
     padding: 20px;
     overflow: hidden;
 }
 
-.right-tool div {
+.body .right-tool div {
     float: left;
     width: 50%;
 }
 
-.right-tool div ul li p {
+.body .right-tool div ul li p {
     width: 90%;
 }
 
 /* -------------------------- End Give Your Business The Right Tools  -------------------------------- */
 /* ------------------------------------- Start Fiverr Guides ----------------------------------------- */
 
-.fiverr-guides {
+.body .fiverr-guides {
     padding: 20px;
     overflow: hidden;
 }
 
-.fiverr-guides div {
+.body .fiverr-guides div {
     overflow: hidden;
 }
 
-.fiverr-guides div ul {
+.body .fiverr-guides div ul {
     overflow: hidden;
     padding-left: 0;
 }
 
-.fiverr-guides div ul li {
+.body .fiverr-guides div ul li {
     list-style: none;
     float: left;
     padding-right: 20px;
     
 }
 
-.fiverr-guides div ul li img {
+.body .fiverr-guides div ul li img {
     width:413px;
     height: 209px;
 }
@@ -419,11 +426,11 @@
 /* --------------------------------------- End Fiverr Guides ----------------------------------------- */
 /* -------------------- Start Find Freelance Services For Your Business Today ------------------------ */
 
-.find-freelance {
+.body .find-freelance {
     padding: 20px 20px 80px 20px;
 }
 
-.find-freelance div {
+.body .find-freelance div {
     background-image: url("../images/background/find.png");
     overflow: hidden;
     text-align: center;
@@ -431,7 +438,7 @@
     height: 280px;
 }
 
-.find-freelance div h2 {
+.body .find-freelance div h2 {
     margin-top: 80px;
 }
 
@@ -439,7 +446,7 @@
     
 }
 
-.find-freelance div button {
+.body .find-freelance div button {
     background-color: #3FCA89;
     color: #FFF;
     padding: 15px 25px 15px 25px;
@@ -447,30 +454,30 @@
     margin-top: 10px;
 }
 
-.find-freelance div a {
+.body .find-freelance div a {
     text-decoration: none;
 }
 
 /* -------------------- End Find Freelance Services For Your Business Today -------------------------- */
 /* ------------------------------------------ Start Footer -------------------------------------------------- */
 
-footer {
+.footer-main {
     background-color: #FAFAFA;
     overflow: hidden;
 }
 
-footer .hr-footer-one {
+.footer-main .hr-footer-one {
     margin-top: 0;
     margin-bottom: 15px;
 }
 
 /* Part One */
 
-footer .part-one {
+.footer-main .part-one {
     padding: 0 0 10px 20px; 
 }
 
-footer .part-one h2 {
+.footer-main .part-one h2 {
     color: #777777;
     padding: 5px;
     margin: 0 0 -8px 0;
@@ -478,12 +485,12 @@ footer .part-one h2 {
     font-weight: bold;
 }
 
-footer .part-one h2 .trade-mark {
+.footer-main .part-one h2 .trade-mark {
     font-size: 10px;
     top: -1.5em;
 }
 
-footer .part-one h5 {
+.footer-main .part-one h5 {
     color: #777777;
     padding: 5px;
     margin-top: 0;
@@ -491,71 +498,71 @@ footer .part-one h5 {
     font-weight: normal;
 }
 
-footer .part-one h5 a {
+.footer-main .part-one h5 a {
     color: #989898;
     text-decoration: none;
     font-size: 15px;
 }
 
-footer .part-one h5 a:hover {
+.footer-main .part-one h5 a:hover {
     text-decoration-line: underline;
 }
 
-footer .part-one .copy-right {
+.footer-main .part-one .copy-right {
     color: #C6C6C6;
 }
 
 /* Part Two */
 
-footer .part-two {
+.footer-main .part-two {
     padding: 0 0 20px 20px;
     display: inline-block;
 }
 
-footer .part-two div {
+.footer-main .part-two div {
     float: left;
     margin: 0 65px 10px 5px;
 }
 
-footer .part-two h3 {
+.footer-main .part-two h3 {
     color: #555555;
     
 }
 
-footer .part-two ul {
+.footer-main .part-two ul {
     list-style: none;
     padding: 0;
 }
 
-footer .part-two ul li {
+.footer-main .part-two ul li {
     line-height: 30px;
 }
 
-footer .part-two ul li a {
+.footer-main .part-two ul li a {
     color: #7F7F7F;
     text-decoration: none;
 }
 
-footer .part-two ul li a:hover {
+.footer-main .part-two ul li a:hover {
     text-decoration-line: underline;
 }
 
 /* Part Three */
 
-footer .part-three .hr-footer-two {
+.footer-main .part-three .hr-footer-two {
     margin: 8px 15px 8px 0;
 }
 
-footer .part-three {
+.footer-main .part-three {
     padding: 0 0 20px 20px;
     
 }
 
-footer .part-three ul {
+.footer-main .part-three ul {
     padding: 0;   
 }
 
-footer .part-three ul li {
+.footer-main .part-three ul li {
     display: inline-block;
     padding-right: 10px;
 }

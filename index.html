@@ -5,21 +5,26 @@
 		<title>Fiverr</title>
 		<link rel="stylesheet" href="css/normalize.css"/>
 		<link rel="stylesheet" href="css/index.css"/>
+        <!--[if lt IE 9]>
+        <script src="js/html5shiv.min.js"></script>
+        <![endif]-->
 	</head>
 	<body>
-		<!-- Start Slider & Navbar -->
-		<section class="header-main">
-			<header class= slider>
+<!-- Start Slider & Navbar -->
+		<header class="header-main">
+			<div class= slider>
                 <div class="first-box">
                     <div class="box-one">
                         <h2><a href="#">fiverr</a></h2>
                     </div>
                     <div class="box-two">
-                        <ul>
-                            <li><a href="#"><span class="active">Fiverr Pro</span></a></li>
-                            <li><a href="#">Become a Seller</a></li>
-                            <li><a href="#">Sign In</a></li>
-                        </ul>
+                        <nav>
+                            <ul>
+                                <li><a href="#"><span class="active">Fiverr Pro</span></a></li>
+                                <li><a href="#">Become a Seller</a></li>
+                                <li><a href="#">Sign In</a></li>
+                            </ul>
+                        </nav>
                     </div>
                     <div class="box-three">
                         <button>Join</button>
@@ -41,9 +46,9 @@
                         <button>Articles & Blog Posts</button>
                     </div>
                 </div>
-			</header>
-			<footer class="nav">
-                <div>
+			</div>
+			<div class="nav">
+                <div class="first-box">
                     <nav>
                         <ul>
                             <li>facebook</li>
@@ -57,254 +62,272 @@
                     </nav>
                 </div>
                 <hr>
-			</footer>
-		</section>
-		<!-- End Slider & Navbar -->
-		<!-- Start Popular Professional Services -->
-		<section class="popular">
-			<div>
-				<h2>Popular Professional Services</h2>
-				<ul>
-					<li><img src="images/Service/popular01.png" alt=""></li>
-					<li><img src="images/Service/popular02.png" alt=""></li>
-					<li><img src="images/Service/popular03.png" alt=""></li>
-					<li><img src="images/Service/popular04.png" alt=""></li>
-					<li><img src="images/Service/popular05.png" alt=""></li>
-				</ul>
 			</div>
-		</section>
-		<!-- End Popular Professional Services -->
-		<!-- Start Get Work Done Faster On Fiverr, With Confidence -->
-		<section class="get-work">
-			<div>
-				<h2>Get Work Done Faster On Fiverr, With Confidence</h2>
-				<ul>
-					<li>
-						<h3>Payment Protection, Guaranteed</h3>
-						<p>Payment is released to the freelancer once you’re pleased and approve the work you get.</p>
-					</li>
-					<li>
-						<h3>Know The Price Upfront</h3>
-						<p>Find any service within minutes and know exactly what you’ll pay. No hourly rates, just a fixed price.</p>
-					</li>
-					<li>
-						<h3>We’re Here For You 24/7</h3>
-						<p>Fiverr is here for you, anything from answering any questions to resolving any issues, at any time.</p>
-					</li>
-				</ul>
-			</div>
-			<div>
-				<img src="images/get-work/get.png" alt="">
-			</div>
-		</section>
-		<!-- End Get Work Done Faster On Fiverr, With Confidence -->
-		<!-- Start Explore The Marketplace -->
-		<section class="explore">
-            <div class="main-div">
-                <h2>Explore The Marketplace</h2>
-                <div class="box-one">
+		</header>
+<!-- End Slider & Navbar -->
+<!-- Start Popular Professional Services -->
+        <main class="body">
+            <div class="popular">
+                <div>
+                    <h2>Popular Professional Services</h2>
                     <ul>
-                        <li>
-                            <img src="images/marketplace/marketplace01.png" alt=""/>
-                            <p><a href="#">Graphics & Design</a></p>
-                        </li>
-                        <li>
-                            <img src="images/marketplace/marketplace02.png" alt=""/>
-                            <p><a href="#">Digital Marketing</a></p>
-                        </li>
-                        <li>
-                            <img src="images/marketplace/marketplace03.png" alt=""/>
-                            <p><a href="#">Writing & Translation</a></p>
-                        </li>
-                        <li>
-                            <img src="images/marketplace/marketplace04.png" alt=""/>
-                            <p><a href="#">Video & Animation</a></p>
-                        </li>
-            <div class="clearfix"></div>
-                        <li>
-                            <img src="images/marketplace/marketplace05.png" alt=""/>
-                            <p><a href="#">Music & Audio</a></p>
-                        </li>
-                        <li>
-                            <img src="images/marketplace/marketplace06.png" alt=""/>
-                            <p><a href="#">Programming & Tech</a></p>
-                        </li>
-                        <li>
-                            <img src="images/marketplace/marketplace07.png" alt=""/>
-                            <p><a href="#">Business</a></p>
-                        </li>
-                        <li>
-                            <img src="images/marketplace/marketplace08.png" alt=""/>
-                            <p><a href="#">Lifestyle</a></p>
-                        </li>
+                        <li><img src="images/Service/popular01.png" alt=""></li>
+                        <li><img src="images/Service/popular02.png" alt=""></li>
+                        <li><img src="images/Service/popular03.png" alt=""></li>
+                        <li><img src="images/Service/popular04.png" alt=""></li>
+                        <li><img src="images/Service/popular05.png" alt=""></li>
                     </ul>
                 </div>
             </div>
-		</section>
-		<!-- End Explore The Marketplace -->
-		<!-- Start Get Inspired With Projects Made By Our Freelancers -->
-		<section class="get-inspired">
-			<div>
-				<h2>Get Inspired With Projects Made By Our Freelancers</h2>
-				<ul>
-					<li><img src="images/inspired/inspired01.png" alt=""></li>
-					<li><img src="images/inspired/inspired02.png" alt=""></li>
-					<li><img src="images/inspired/inspired03.png" alt=""></li>
-					<li><img src="images/inspired/inspired04.png" alt=""></li>
-				</ul>
-			</div>
-		</section>
-		<!-- End Get Inspired With Projects Made By Our Freelancers -->
-		<!-- Start Chef -->
-		<section class="chef">
-			<div class="chef-work">
-				<div class="box-one">
-					<img src="images/chef/chef01.png" alt="">
-				</div>
-				<div class="box-two">
-					<q>Being a small growing brand, we have to definitely do a lot more with less. And when you want to create a business bigger than yourself, you're going to need help. And that's what Fiverr does</q>
-					<p>Time and Dan loo, Co-founders</p>
-					<img src=""/>
-				</div>
-			</div>
-		</section>
-		<!-- End Chef -->
-		<!-- Start Pro  -->
-		<section class="pro">
-			<div>
-				<span>Try Fiverr Pro</span>
-				<h2>Unrivaled experts, trusted by the world's biggest brands</h2>
-				<button>Explore Pro Services</button>
-			</div>
-		</section>
-		<!-- End Pro -->    
-		<!-- Start Give Your Business The Right Tools  -->
-		<section class="right-tool">
-			<div>
-				<h2>Give Your Business The Right Tools</h2>
-				<ul>
-					<li>
-						<h3>Full Transparency</h3>
-						<p>A new shared dashboard allows you to track your team's activity, so that everyone is always in sync.</p>
-					</li>
-					<li>
-						<h3>VIP Customer Support</h3>
-						<p>Quick response time and upgraded support solutions will help you to get what you need, when you need it.</p>
-					</li>
-					<li>
-						<h3>Improved Billing Options</h3>
-						<p>One team - one payment method. You can now add a card on file that every team member can use.</p>
-					</li>
-				</ul>
-			</div>
-			<div>
-				<img src="images/right-tools/tools.png" alt=""/>
-			</div>
-		</section>
-		<!-- End Give Your Business The Right Tools -->
-		<!-- Start Fiverr Guides -->
-		<section class="fiverr-guides">
-			<div>
-				<h2>Fiverr Guides</h2>
-				<ul>
-					<li>
-						<img src="images/guides/guides01.png" alt=""/>
-						<h3>Create a Website</h3>
-						<p>Building a stunning website from A to Z</p>
-					</li>
-					<li>
-						<img src="images/guides/guides02.png" alt=""/>
-						<h3>Grow With Digital Marketing</h3>
-						<p>Promoting your business online</p>
-					</li>
-					<li>
-						<img src="images/guides/guides03.png" alt=""/>
-						<h3>Build a Strong Brand</h3>
-						<p>Differentiating yourself from the competition</p>
-					</li>
-				</ul>
-			</div>
-		</section>
-		<!-- End Fiverr Guides -->
-		<!-- Start Find Freelance Services For Your Business Today -->
-		<section class="find-freelance">
-			<div>
-				<h2>Find Freelance Services For Your Business Today</h2>
-				<p>We've got you covered for all your business needs</p>
-				<a href="#"><button>Get Started</button></a>
-			</div>
-		</section>
-		<!-- End Find Freelance Services For Your Business Today -->
-		<!-- Start Footer -->
-		<footer>
+<!-- End Popular Professional Services -->
+<!-- Start Get Work Done Faster On Fiverr, With Confidence -->
+            <div class="get-work">
+                <div>
+                    <h2>Get Work Done Faster On Fiverr, With Confidence</h2>
+                    <nav>
+                        <ul>
+                            <li>
+                                <h3>Payment Protection, Guaranteed</h3>
+                                <p>Payment is released to the freelancer once you’re pleased and approve the work you get.</p>
+                            </li>
+                            <li>
+                                <h3>Know The Price Upfront</h3>
+                                <p>Find any service within minutes and know exactly what you’ll pay. No hourly rates, just a fixed price.</p>
+                            </li>
+                            <li>
+                                <h3>We’re Here For You 24/7</h3>
+                                <p>Fiverr is here for you, anything from answering any questions to resolving any issues, at any time.</p>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div>
+                    <img src="images/get-work/get.png" alt="">
+                </div>
+            </div>
+<!-- End Get Work Done Faster On Fiverr, With Confidence -->
+<!-- Start Explore The Marketplace -->
+            <div class="explore">
+                <div class="main-div">
+                    <h2>Explore The Marketplace</h2>
+                    <nav class="box-one">
+                        <ul>
+                            <li>
+                                <img src="images/marketplace/marketplace01.png" alt=""/>
+                                <p><a href="#">Graphics & Design</a></p>
+                            </li>
+                            <li>
+                                <img src="images/marketplace/marketplace02.png" alt=""/>
+                                <p><a href="#">Digital Marketing</a></p>
+                            </li>
+                            <li>
+                                <img src="images/marketplace/marketplace03.png" alt=""/>
+                                <p><a href="#">Writing & Translation</a></p>
+                            </li>
+                            <li>
+                                <img src="images/marketplace/marketplace04.png" alt=""/>
+                                <p><a href="#">Video & Animation</a></p>
+                            </li>
+                <div class="clearfix"></div>
+                            <li>
+                                <img src="images/marketplace/marketplace05.png" alt=""/>
+                                <p><a href="#">Music & Audio</a></p>
+                            </li>
+                            <li>
+                                <img src="images/marketplace/marketplace06.png" alt=""/>
+                                <p><a href="#">Programming & Tech</a></p>
+                            </li>
+                            <li>
+                                <img src="images/marketplace/marketplace07.png" alt=""/>
+                                <p><a href="#">Business</a></p>
+                            </li>
+                            <li>
+                                <img src="images/marketplace/marketplace08.png" alt=""/>
+                                <p><a href="#">Lifestyle</a></p>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+<!-- End Explore The Marketplace -->
+<!-- Start Get Inspired With Projects Made By Our Freelancers -->
+            <div class="get-inspired">
+                <div>
+                    <h2>Get Inspired With Projects Made By Our Freelancers</h2>
+                    <nav>
+                        <ul>
+                            <li><img src="images/inspired/inspired01.png" alt=""></li>
+                            <li><img src="images/inspired/inspired02.png" alt=""></li>
+                            <li><img src="images/inspired/inspired03.png" alt=""></li>
+                            <li><img src="images/inspired/inspired04.png" alt=""></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+<!-- End Get Inspired With Projects Made By Our Freelancers -->
+<!-- Start Chef -->
+            <div class="chef">
+                <div class="chef-work">
+                    <div class="box-one">
+                        <img src="images/chef/chef01.png" alt="">
+                    </div>
+                    <div class="box-two">
+                        <q>Being a small growing brand, we have to definitely do a lot more with less. And when you want to create a business bigger than yourself, you're going to need help. And that's what Fiverr does</q>
+                        <p>Time and Dan loo, Co-founders</p>
+                        <img src="" alt=""/>
+                    </div>
+                </div>
+            </div>
+<!-- End Chef -->
+<!-- Start Pro  -->
+            <div class="pro">
+                <div>
+                    <span>Try Fiverr Pro</span>
+                    <h2>Unrivaled experts, trusted by the world's biggest brands</h2>
+                    <button>Explore Pro Services</button>
+                </div>
+            </div>
+<!-- End Pro -->    
+<!-- Start Give Your Business The Right Tools  -->
+            <div class="right-tool">
+                <div>
+                    <h2>Give Your Business The Right Tools</h2>
+                    <ul>
+                        <li>
+                            <h3>Full Transparency</h3>
+                            <p>A new shared dashboard allows you to track your team's activity, so that everyone is always in sync.</p>
+                        </li>
+                        <li>
+                            <h3>VIP Customer Support</h3>
+                            <p>Quick response time and upgraded support solutions will help you to get what you need, when you need it.</p>
+                        </li>
+                        <li>
+                            <h3>Improved Billing Options</h3>
+                            <p>One team - one payment method. You can now add a card on file that every team member can use.</p>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <img src="images/right-tools/tools.png" alt=""/>
+                </div>
+            </div>
+<!-- End Give Your Business The Right Tools -->
+<!-- Start Fiverr Guides -->
+            <div class="fiverr-guides">
+                <div>
+                    <h2>Fiverr Guides</h2>
+                    <nav>
+                        <ul>
+                            <li>
+                                <img src="images/guides/guides01.png" alt=""/>
+                                <h3>Create a Website</h3>
+                                <p>Building a stunning website from A to Z</p>
+                            </li>
+                            <li>
+                                <img src="images/guides/guides02.png" alt=""/>
+                                <h3>Grow With Digital Marketing</h3>
+                                <p>Promoting your business online</p>
+                            </li>
+                            <li>
+                                <img src="images/guides/guides03.png" alt=""/>
+                                <h3>Build a Strong Brand</h3>
+                                <p>Differentiating yourself from the competition</p>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+<!-- End Fiverr Guides -->
+<!-- Start Find Freelance Services For Your Business Today -->
+            <div class="find-freelance">
+                <div>
+                    <h2>Find Freelance Services For Your Business Today</h2>
+                    <p>We've got you covered for all your business needs</p>
+                    <button><a href="#">Get Started</a></button>
+                </div>
+            </div>
+        </main>
+<!-- End Find Freelance Services For Your Business Today -->
+<!-- Start Footer -->
+		<footer class="footer-main">
 			<hr class="hr-footer-one">
-			<section class="part-one">
+			<div class="part-one">
 				<div>
 					<h2>fiverr<sup class="trade-mark">&reg</sup></h2>
 					<h5><a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></h5>
 					<span class="copy-right">&copy;  Fiverr International Ltd. 2019</span>
 				</div>
-			</section>
-			<section class="part-two">
+			</div>
+			<div class="part-two">
 				<div>
 					<h3>Categories</h3>
-					<ul>
-						<li><a href="#">Graphics & Design</a></li>
-						<li><a href="#">Online Marketing</a></li>
-						<li><a href="#">Writing & Translation</a></li>
-						<li><a href="#">Video & Animation</a></li>
-						<li><a href="#">Music & Audio</a></li>
-						<li><a href="#">Programming & Tech</a></li>
-						<li><a href="#">Business</a></li>
-						<li><a href="#">Lifestyle</a></li>
-						<li><a href="#">Sitemap</a></li>
-					</ul>
+                    <nav>
+                        <ul>
+                            <li><a href="#">Graphics & Design</a></li>
+                            <li><a href="#">Online Marketing</a></li>
+                            <li><a href="#">Writing & Translation</a></li>
+                            <li><a href="#">Video & Animation</a></li>
+                            <li><a href="#">Music & Audio</a></li>
+                            <li><a href="#">Programming & Tech</a></li>
+                            <li><a href="#">Business</a></li>
+                            <li><a href="#">Lifestyle</a></li>
+                            <li><a href="#">Sitemap</a></li>
+                        </ul>
+                    </nav>
 				</div>
 				<div>
 					<h3>About</h3>
-					<ul>
-						<li><a href="#">Careers</a></li>
-						<li><a href="#">Press & News</a></li>
-						<li><a href="#">Partnerships</a></li>
-						<li><a href="#">Privacy Policy</a></li>
-						<li><a href="#">Terms of Service</a></li>
-						<li><a href="#">Intellectual Property Claims</a></li>
-					</ul>
+                    <nav>
+                            <ul>
+                            <li><a href="#">Careers</a></li>
+                            <li><a href="#">Press & News</a></li>
+                            <li><a href="#">Partnerships</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Terms of Service</a></li>
+                            <li><a href="#">Intellectual Property Claims</a></li>
+                        </ul>
+                    </nav>
 				</div>
 				<div>
 					<h3>Support</h3>
-					<ul>
-						<li><a href="#">Help & Support</a></li>
-						<li><a href="#">Trust & Safety</a></li>
-						<li><a href="#">Selling on Fiverr</a></li>
-						<li><a href="#">Buying on Fiverr</a></li>
-					</ul>
+                    <nav>
+                        <ul>
+                            <li><a href="#">Help & Support</a></li>
+                            <li><a href="#">Trust & Safety</a></li>
+                            <li><a href="#">Selling on Fiverr</a></li>
+                            <li><a href="#">Buying on Fiverr</a></li>
+					   </ul>
+                    </nav>
 				</div>
 				<div>
 					<h3>Community</h3>
-					<ul>
-						<li><a href="#">Events</a></li>
-						<li><a href="#">Blog</a></li>
-						<li><a href="#">Forum</a></li>
-						<li><a href="#">Podcast</a></li>
-						<li><a href="#">Affiliates</a></li>
-						<li><a href="#">Invite a Friend</a></li>
-						<li><a href="#">Become a Seller</a></li>
-					</ul>
+                    <nav>
+                         <ul>
+                            <li><a href="#">Events</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Forum</a></li>
+                            <li><a href="#">Podcast</a></li>
+                            <li><a href="#">Affiliates</a></li>
+                            <li><a href="#">Invite a Friend</a></li>
+                            <li><a href="#">Become a Seller</a></li>
+					   </ul>
+                    </nav>
 				</div>
 				<div>
 					<h3>More From Fiverr</h3>
-					<ul>
-						<li><a href="#">Fiverr Pro</a></li>
-						<li><a href="#">Get Inspired</a></li>
-						<li><a href="#">ClearVoice</a></li>
-						<li><a href="#">AND CO</a></li>
-						<li><a href="#">Learn</a></li>
-						<li><a href="#">Fiverr Elevate</a></li>
-					</ul>
+                    <nav>
+                         <ul>
+                            <li><a href="#">Fiverr Pro</a></li>
+                            <li><a href="#">Get Inspired</a></li>
+                            <li><a href="#">ClearVoice</a></li>
+                            <li><a href="#">AND CO</a></li>
+                            <li><a href="#">Learn</a></li>
+                            <li><a href="#">Fiverr Elevate</a></li>
+                         </ul>
+                    </nav>
 				</div>
-			</section>
-			<section class="part-three">
+			</div>
+			<div class="part-three">
 				<hr class="hr-footer-two">
 				<div>
 					<ul>
@@ -314,8 +337,8 @@
 						<li><a href="#"><img src="images/social/twitter.png" alt=""/></a></li>
 					</ul>
 				</div>
-			</section>
+			</div>
 		</footer>
-		<!-- End Footer -->
+<!-- End Footer -->
 	</body>
 </html>
