@@ -1,3 +1,7 @@
+main {
+    height: 2000px; /* Temprory */
+}
+
 /* Start Main Rules */
 
 .container: {
@@ -17,14 +21,13 @@
 /* -- Start Navbar -- */
 
 .header-main {
-    
+    height: 122px;
+    margin-top: 20px;
 }
 
 .header-main .first-box {
-    height: 85px;
     overflow: hidden;
-    margin-top: 20px;
-    margin-bottom: -20px;
+    
 }
 .header-main .first-box div {
     float: left;
@@ -34,13 +37,43 @@
     width: 8%;
 }
 
+.header-main .first-box .box-one h1 {
+    margin-left: 20px;
+    margin-top: -1px;
+}
+
 .header-main .first-box .box-two {
     width: 45%;
+    margin-left: 20px;
+}
+
+.header-main .first-box .box-two input {
+    width: 306px;
+    height: 30px;
+}
+
+.header-main .first-box .box-two button {
+    background-color: #3FCA89;
+    color: #FFF;
+    padding: 9px 20px 9px 20px;
+    border-top-right-radius: 5px; /* CSS3 */
+    border-bottom-right-radius: 5px; /* CSS3 */
+    border: 1px solid;
+    margin-left: -6px;
+    font-weight: bold;
 }
 
 .header-main .first-box .box-three {
-    width: 35%;
-    
+    width: 40%;
+}
+
+.header-main .first-box .box-three .main-nav-one {
+    overflow: hidden;
+}
+
+.header-main .first-box .box-three .main-nav-one ul {
+    overflow: hidden;
+    padding-left: 22%;
 }
 
 .header-main .first-box .box-three .main-nav-one ul li {
@@ -57,7 +90,12 @@
 }
 
 .header-main .first-box .box-four {
-    width: 8%;
+    width: 3%;
+    margin-top: 10px;
+}
+
+.header-main .first-box .box-four img {   
+    border-radius: 50%; /* CSS3 */
 }
 
 .header-main .first-box .main-nav-one {
@@ -102,3 +140,116 @@
 }
 
 /* -- End Navbar -- */
+
+
+
+
+/* -- Start Footer -- */
+
+.footer-main {
+    background-color: #FAFAFA;
+    overflow: hidden;
+}
+
+.footer-main .hr-footer-one {
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+/* Part One */
+
+.footer-main .part-one {
+    padding: 0 0 10px 20px; 
+}
+
+.footer-main .part-one h2 {
+    color: #777777;
+    padding: 5px;
+    margin: 0 0 -8px 0;
+    font-size: 200%;
+    font-weight: bold;
+}
+
+.footer-main .part-one h2 .trade-mark {
+    font-size: 10px;
+    top: -1.5em;
+}
+
+.footer-main .part-one h5 {
+    color: #777777;
+    padding: 5px;
+    margin-top: 0;
+    margin-bottom:0;
+    font-weight: normal;
+}
+
+.footer-main .part-one h5 a {
+    color: #989898;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.footer-main .part-one h5 a:hover {
+    text-decoration-line: underline;
+}
+
+.footer-main .part-one .copy-right {
+    color: #C6C6C6;
+}
+
+/* Part Two */
+
+.footer-main .part-two {
+    padding: 0 0 20px 20px;
+    display: inline-block;
+}
+
+.footer-main .part-two div {
+    float: left;
+    margin: 0 65px 10px 5px;
+}
+
+.footer-main .part-two h3 {
+    color: #555555;
+    
+}
+
+.footer-main .part-two ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-main .part-two ul li {
+    line-height: 30px;
+}
+
+.footer-main .part-two ul li a {
+    color: #7F7F7F;
+    text-decoration: none;
+}
+
+.footer-main .part-two ul li a:hover {
+    text-decoration-line: underline;
+}
+
+/* Part Three */
+
+.footer-main .part-three .hr-footer-two {
+    margin: 8px 15px 8px 0;
+}
+
+.footer-main .part-three {
+    padding: 0 0 20px 20px;
+    
+}
+
+.footer-main .part-three ul {
+    padding: 0;   
+}
+
+.footer-main .part-three ul li {
+    display: inline-block;
+    padding-right: 10px;
+}
+
+/* -- End Footer -- */
