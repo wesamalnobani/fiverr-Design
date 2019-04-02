@@ -56,7 +56,15 @@ main {
     background-color: #3FCA89;
     color: #FFF;
     padding: 9px 20px 9px 20px;
+    -webkit-border-top-right-radius: 5px; /* CSS3 */
+    -moz-border-top-right-radius: 5px; /* CSS3 */
+    -o-border-top-right-radius: 5px; /* CSS3 */
+    -ms-border-top-right-radius: 5px; /* CSS3 */
     border-top-right-radius: 5px; /* CSS3 */
+    -webkit-border-bottom-right-radius: 5px; /* CSS3 */
+    -moz-border-bottom-right-radius: 5px; /* CSS3 */
+    -o-border-bottom-right-radius: 5px; /* CSS3 */
+    -ms-border-bottom-right-radius: 5px; /* CSS3 */
     border-bottom-right-radius: 5px; /* CSS3 */
     border: 1px solid;
     margin-left: -6px;
@@ -78,6 +86,7 @@ main {
 
 .header-main .first-box .box-three .main-nav-one ul li {
     padding-right: 20px;
+    list-style: none;
 }
 
 .header-main .first-box .box-three .main-nav-one ul li a {
@@ -95,12 +104,17 @@ main {
 }
 
 .header-main .first-box .box-four img {   
+    -webkit-border-radius: 50%; /* CSS3 */
+    -moz-border-radius: 50%; /* CSS3 */
+    -o-border-radius: 50%; /* CSS3 */
+    -ms-border-radius: 50%; /* CSS3 */
     border-radius: 50%; /* CSS3 */
 }
 
 .header-main .first-box .main-nav-one {
     
 }
+-webkit-border-radius: 50%;
 
 .header-main .first-box .main-nav-one ul {
      list-style: none;
