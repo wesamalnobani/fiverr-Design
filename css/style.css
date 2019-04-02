@@ -14,26 +14,6 @@
 }
 /* End Main Rules */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* -- Start Navbar -- */
 
 .header-main {
@@ -46,6 +26,36 @@
 }
 .header-main .first-box div {
     float: left;
+}
+
+.header-main .first-box .box-one {
+    width: 8%;
+}
+
+.header-main .first-box .box-two {
+    width: 45%;
+}
+
+.header-main .first-box .box-three {
+    width: 35%;
+    
+}
+
+.header-main .first-box .box-three .main-nav-one ul li {
+    padding-right: 20px;
+}
+
+.header-main .first-box .box-three .main-nav-one ul li a {
+    text-decoration: none;
+    color: #888;
+}
+
+.header-main .first-box .box-three .main-nav-one ul li a:hover {
+    text-decoration: underline;
+}
+
+.header-main .first-box .box-four {
+    width: 8%;
 }
 
 .header-main .first-box .main-nav-one {
@@ -71,11 +81,22 @@
 
 .header-main .second-box .main-nav-two ul {
     list-style: none;
+    overflow: hidden;
+    margin: 5px 0 5px 0;
 }
 
 .header-main .second-box .main-nav-two ul li {
     float: left;
+    padding-right: 55px;
 }
 
+.header-main .second-box .main-nav-two ul li a {
+    text-decoration: none;
+    color: #888;
+}
+
+.header-main .second-box .main-nav-two ul li a:hover {
+    text-decoration: underline;
+}
 
 /* -- End Navbar -- */
