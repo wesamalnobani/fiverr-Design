@@ -25,34 +25,33 @@ main {
     margin-top: 20px;
 }
 
-.header-main .first-box {
-    overflow: hidden;
+.header-main .div-1 {
+    border: 1px solid;
     
 }
-.header-main .first-box div {
-    float: left;
+.header-main .div-1 div {
+    display: inline-block;
 }
 
-.header-main .first-box .box-one {
+.header-main .div-1 .div-1-1 {
     width: 8%;
-}
-
-.header-main .first-box .box-one h1 {
     margin-left: 20px;
-    margin-top: -1px;
 }
 
-.header-main .first-box .box-two {
+.header-main .div-1 .div-1-1 h1 {
+    
+}
+
+.header-main .div-1 .div-1-2 {
     width: 45%;
-    margin-left: 20px;
 }
 
-.header-main .first-box .box-two input {
+.header-main .div-1 .div-1-2 input {
     width: 306px;
     height: 30px;
 }
 
-.header-main .first-box .box-two button {
+.header-main .div-1 .div-1-2 button {
     background-color: #3FCA89;
     color: #FFF;
     padding: 9px 20px 9px 20px;
@@ -71,39 +70,37 @@ main {
     font-weight: bold;
 }
 
-.header-main .first-box .box-three {
+.header-main .div-1 .div-1-3 {
     width: 40%;
 }
 
-.header-main .first-box .box-three .main-nav-one {
+.header-main .div-1 .div-1-3 .main-nav-one {
     overflow: hidden;
 }
 
-.header-main .first-box .box-three .main-nav-one ul {
-    overflow: hidden;
+.header-main .div-1 .div-1-3 .main-nav-one ul {
     padding-left: 22%;
 }
 
-.header-main .first-box .box-three .main-nav-one ul li {
+.header-main .div-1 .div-1-3 .main-nav-one ul li {
     padding-right: 20px;
     list-style: none;
 }
 
-.header-main .first-box .box-three .main-nav-one ul li a {
+.header-main .div-1 .div-1-3 .main-nav-one ul li a {
     text-decoration: none;
     color: #888;
 }
 
-.header-main .first-box .box-three .main-nav-one ul li a:hover {
+.header-main .div-1 .div-1-3 .main-nav-one ul li a:hover {
     text-decoration: underline;
 }
 
-.header-main .first-box .box-four {
+.header-main .div-1 .div-1-4 {
     width: 3%;
-    margin-top: 10px;
 }
 
-.header-main .first-box .box-four img {   
+.header-main .div-1 .div-1-4 img {   
     -webkit-border-radius: 50%; /* CSS3 */
     -moz-border-radius: 50%; /* CSS3 */
     -o-border-radius: 50%; /* CSS3 */
@@ -111,45 +108,45 @@ main {
     border-radius: 50%; /* CSS3 */
 }
 
-.header-main .first-box .main-nav-one {
+.header-main .div-1 .main-nav-one {
     
 }
 -webkit-border-radius: 50%;
 
-.header-main .first-box .main-nav-one ul {
+.header-main .div-1 .main-nav-one ul {
      list-style: none;
     
 }
 
-.header-main .first-box .main-nav-one ul li {
+.header-main .div-1 .main-nav-one ul li {
    float: left;
 }
 
-.header-main .second-box {
+.header-main .div-2 {
     overflow: hidden;
 }
 
-.header-main .second-box .main-nav-two {
+.header-main .div-2 .main-nav-two {
     overflow: hidden;
 }
 
-.header-main .second-box .main-nav-two ul {
+.header-main .div-2 .main-nav-two ul {
     list-style: none;
     overflow: hidden;
     margin: 5px 0 5px 0;
 }
 
-.header-main .second-box .main-nav-two ul li {
-    float: left;
+.header-main .div-2 .main-nav-two ul li {
+    display: inline-block;
     padding-right: 55px;
 }
 
-.header-main .second-box .main-nav-two ul li a {
+.header-main .div-2 .main-nav-two ul li a {
     text-decoration: none;
     color: #888;
 }
 
-.header-main .second-box .main-nav-two ul li a:hover {
+.header-main .div-2 .main-nav-two ul li a:hover {
     text-decoration: underline;
 }
 
