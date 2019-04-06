@@ -1,4 +1,18 @@
-/* -- Start Navbar -- */
+/* 
+BEM — Block Element Modifier 
+http://getbem.com/
+*/
+
+/* Start Modifier */
+
+.-width-10 {width: 10%}
+.-width-30 {width: 35%}
+.-width-60 {width: 50%}
+.-margin-top25 {margin-top: 25px}
+
+/* End Modifier */
+
+/*  Start Navbar  */
 .hdr {
 }
 
@@ -9,7 +23,7 @@
 .hdr_hr {
     display: block;
     height: 1px;
-    margin: 0;
+    margin: -5px;
     border: 0;
     border-top: 1px solid #ccc;
     padding: 0;
@@ -64,11 +78,15 @@
 }
 
 .hdr_div_div_nav_ul_li_a:hover {
-    text-decoration: underline;
+    color: #999;
 }
 
-.hdr_div_div_nav_ul_li_a_spn {
+.hdr_div_div_nav_ul_li_a_spn{
     color: #94E9F5;
+}
+
+.hdr_div_div_nav_ul_li_a_spn:hover {
+    color: #080;
 }
 
 .hdr_div_div_img {
@@ -101,12 +119,7 @@
     text-decoration: underline;
 }
 
-.-width-10 {width: 10%}
-.-width-30 {width: 35%}
-.-width-60 {width: 50%}
-.-margin-top25 {margin-top: 25px}
-
-/* -- End Navbar -- */
+/*  End Navbar  */
 
 
 

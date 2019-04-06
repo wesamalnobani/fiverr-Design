@@ -347,3 +347,14 @@ template {
 [hidden] {
   display: none;
 }
+
+/* normalize */
+/* 
+*{
+margin:0;
+Padding:0;
+box-sizing:border-box;
+border:none;
+outline:none;
+}
+*/
