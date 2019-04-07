@@ -10,12 +10,13 @@ http://getbem.com/
 
 .active {color: #3FCA89}
 /* End Main Rules */
+
 /* ---------------------------------------------- Start Index -------------------------------------------------*/
 /* ------------------------------------------ Start Main Header ------------------------------------------ */
 
 /* Slider */
 
-.header-main .slider {
+.indx_hdr .slider {
     background-color: #EEF2F5;
     -webkit-background-size: cover; 
     -moz-background-size: cover; 
@@ -24,77 +25,77 @@ http://getbem.com/
     height: 600px;
 }
 
-.header-main .slider .first-box {
+.indx_hdr .slider .first-box {
     width: 100%
     height: 90px;
     overflow: hidden;
 }
 
-.header-main .slider .first-box div {
+.indx_hdr .slider .first-box div {
     float: left;
 }
 
 /* first-box box-one */
-.header-main .slider .first-box .box-one {
+.indx_hdr .slider .first-box .box-one {
     width: 55%;
     height: 100%;
 }
 
-.header-main .slider .first-box .box-one h2 {
+.indx_hdr .slider .first-box .box-one h2 {
     margin-left: 30px;
     font-size: 2em;
 }
 
-.header-main .slider .first-box .box-one h2 a {
+.indx_hdr .slider .first-box .box-one h2 a {
     text-decoration: none;
     color: #555555;
 }
 
 /* first-box box-two */
-.header-main .slider .first-box .box-two {
+.indx_hdr .slider .first-box .box-two {
     width: 35%;
     height: 95%;
     overflow: hidden;
 }
 
-.header-main .slider .first-box .box-two nav {
+.indx_hdr .slider .first-box .box-two nav {
     margin: 15px auto;
 }
 
-.header-main .slider .first-box .box-two nav ul {
+.indx_hdr .slider .first-box .box-two nav ul {
     overflow: hidden;
     padding-left: 90px;
 }
 
-.header-main .slider .first-box .box-two nav ul li {
+.indx_hdr .slider .first-box .box-two nav ul li {
     float: left;
     list-style: none;
     padding: 15px;
 }
 
-.header-main .slider .first-box .box-two nav ul li a {
+.indx_hdr .slider .first-box .box-two nav ul li a {
     text-decoration: none;
     color: #555555;
 }
 
-.header-main .slider .first-box .box-two nav ul li a:hover {
+.indx_hdr .slider .first-box .box-two nav ul li a:hover {
     color: #3FCA89;
 }
 
 /* first-box box-three */
-.header-main .slider .first-box .box-three {
+.indx_hdr .slider .first-box .box-three {
     width: 10%;
     height: 100%;
 }
 
-.header-main .slider .first-box .box-three button {
+.indx_hdr .slider .first-box .box-three button {
     margin: 25px auto;
     background: none;
     padding: 5px 25px 5px 25px;
     border: 1px solid;
 }
 
-.header-main .slider .first-box .box-three button:hover {
+.indx_hdr .slider .first-box .box-three button:hover {
     background-color: #3FCA89;
     color: #FFF;
     border: #3FCA89;
@@ -102,7 +103,7 @@ http://getbem.com/
 
 /* second-box */
 
-.header-main .slider .second-box {
+.indx_hdr .slider .second-box {
     width: 60%;
     height: 40%;
     overflow: hidden;
@@ -111,26 +112,26 @@ http://getbem.com/
 
 /* second-box box-one */
 
-.header-main .slider .second-box .box-one {
+.indx_hdr .slider .second-box .box-one {
      width: 90%;
 }
 
-.header-main .slider .second-box .box-one h1 {
+.indx_hdr .slider .second-box .box-one h1 {
     width: 70%;
 }
 
 /* second-box box-two */
 
-.header-main .slider .second-box .box-two {
+.indx_hdr .slider .second-box .box-two {
     margin-bottom: 20px;
 }
 
-.header-main .slider .second-box .box-two input {
+.indx_hdr .slider .second-box .box-two input {
     height: 40px;
     width: 66%;
 }
 
-.header-main .slider .second-box .box-two button {
+.indx_hdr .slider .second-box .box-two button {
     background-color: #3FCA89;
     height: 45px;
     border: 2px solid #3FCA89;
@@ -139,11 +140,11 @@ http://getbem.com/
     color: #FFF;
 }
 /* second-box box-three */
-.header-main .slider .second-box .box-three span {
+.indx_hdr .slider .second-box .box-three span {
     font-weight:bold;
 }
 
-.header-main .slider .second-box .box-three button {
+.indx_hdr .slider .second-box .box-three button {
     background: none;
     padding: 4px 10px 4px 10px;
     border: 1px solid #888;
@@ -152,16 +153,16 @@ http://getbem.com/
 
 
 /* Navbar */
-.header-main .nav {
+.indx_hdr .nav {
 }
 
-.header-main  .nav .first-box nav ul {
+.indx_hdr  .nav .first-box nav ul {
     overflow: hidden;
     padding-left: 15%;
     position: center;
 }
 
-.header-main .nav .first-box nav ul li {
+.indx_hdr .nav .first-box nav ul li {
     color: #999;
     text-decoration: none;
     font-size: 20px;
@@ -171,7 +172,7 @@ http://getbem.com/
     font-weight: bold;
 }
 
-.header-main hr {
+.indx_hdr hr {
     margin-top: 0;
 }
 
@@ -718,9 +719,6 @@ http://getbem.com/
 .hdr_div_nav_ul_li_div_ul_li_a:hover {
     text-decoration: underline;
 }
-/* Start Modifier */
-
-/* End Modifier */
 /*  End Navbar  */
 
 
@@ -736,6 +734,7 @@ http://getbem.com/
     background-color: #FAFAFA;    
 }
 .ftr_hr {}
+
 .ftr_div {
     overflow: hidden;
 }
@@ -746,6 +745,7 @@ http://getbem.com/
     font-weight: 1.5em;
 }
 .ftr_div_div_h2_sup {}
+
 .ftr_div_div_h5 {
      margin: 5px;
 }
@@ -758,6 +758,7 @@ http://getbem.com/
 }
 .ftr_div_div_spn {}
 .ftr_div_div_h3 {}
+
 .ftr_div_div_nav {
     padding-right: 100px;
 }
@@ -766,6 +767,7 @@ http://getbem.com/
     padding: 0;
 }
 .ftr_div_div_nav_ul_li {}
+
 .ftr_div_div_nav_ul_li_a {
     text-decoration: none;
     line-height: 1.8em;
@@ -775,6 +777,7 @@ http://getbem.com/
     text-decoration: underline;
 }
 .ftr_div_hr {}
+
 .ftr_div_div_ul {
     list-style: none;
     padding: 0;
